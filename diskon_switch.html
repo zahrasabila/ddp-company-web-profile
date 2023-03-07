@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Diskon dengan Switch</title>
+    <link rel="stylesheet" href="style_switch.css">
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("VIX Corporation telah resmi membuka VIX-Clothes sebagai salah satu cabang perusahaan yang bergerak di bidang industri pakaian. Sehubungan diadakannya pembukaan VIX-Clothes, maka kami menyediakan beberapa penawaran. NIRMANA VINTAGE T-SHIRT (Rp.300.000), HOLO SWEATER (Rp.320.000), PARADISE JACKET (Rp.350.000), FUN AND YOUNG HOODIE (Rp.380.000), BERRY SKIRT (Rp.400.000), dan DEAREST VEST (Rp.550.000). Pilih salah satu dan dapatkan diskon sebesar 50% di setiap pembelian. Selanjutnya, Anda dapat men-capture laman ini dan menyerahkannya pada kasir. Masukkan harga produk awal (Tanpa Rp.) :");
+        var hadiah = "";
+        
+        
+        switch(jawab){
+        
+            case "300.000":
+                hadiah = "Rp.150.000";
+                break;
+            case "320.000":
+                hadiah = "Rp.160.000";
+                break;
+            case "350.000":
+                hadiah = "Rp.175.000";
+                break;
+            case "380.000":
+                hadiah = "Rp.190.000";
+                break;
+            case "400.000":
+                hadiah = "Rp.200.000";
+                break;
+            case "550.000":
+                hadiah = "Rp.225.000";
+                break;
+                default:
+                document.write("<p align=center >Harga Setelah Diskon: Mohon maaf Anda salah memasukkan Harga Produk</p>");
+        }
+
+        if (hadiah === "") {
+            document.write("<h1> Sistem Gagal Memproses Harga Diskon</h1>");
+        } 
+        else {
+            document.write("<h2 align=center > Harga Setelah Diskon: " + hadiah + "</h2>");
+            document.write(`<h3 align="center">Congratulations, You Got It!</h3>`);
+            document.write(`<h3 align="center">Thank You So Much For Ordering 𓆩♡𓆪 </h3>`);
+            document.write(`<h4 align="center">Always With You, VIX-Clothes.</h4>`);
+        }
+    </script>
+</body>
+</html>

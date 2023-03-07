@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diskon dengan If</title>
+    <link rel="stylesheet" href="style_if.css">
+</head>
+<body>
+<script>
+    var nilai = prompt(`VIX Corporation telah resmi membuka VIX-Clothes sebagai salah satu cabang perusahaan yang bergerak di bidang industri pakaian. Masukkan harga produk awal (Tanpa "Rp." dan tanda titik ".") : `);
+    
+    if(nilai == 500000 || nilai <= 600000){
+        var diskon = 0.10;
+        var total = nilai - (nilai * diskon);
+    }
+
+    if(nilai == 600001 || nilai <= 700000){
+        var diskon = 0.15;
+        var total = nilai - (nilai * diskon);
+    }
+
+    if(nilai == 700001 || nilai <= 800000){
+        var diskon = 0.20;
+        var total = nilai - (nilai * diskon);
+    }
+
+    if(nilai == 800001 || nilai <= 900000){
+        var diskon = 0.25;
+        var total = nilai - (nilai * diskon);
+    }
+
+    if(nilai == 900001 || nilai <= 10000000){
+        var diskon = 0.30;
+        var total = nilai - (nilai * diskon);
+    }
+
+
+        document.write(`<h1 align="center">Harga Setelah Diskon: ${total}</h1>`);
+        document.write(`<h2 align="center">Congratulations, You Got It!</h2>`);
+        document.write(`<h2 align="center">Thank You So Much For Ordering 𓆩♡𓆪 </h2>`);
+        document.write(`<h3 align="center">Always With You, VIX-Clothes.</h3>`);
+</script>
+</body>
+</html>
