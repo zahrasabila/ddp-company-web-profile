@@ -1,0 +1,13 @@
+.body {
+    background: url('math.png');
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 200px;
+    line-height: 200px;
+    background-color: aqua;
+    border-radius: 12px;
+    display:inline-flex;
+    padding:7px;
+    padding-top: -20px;
+}
