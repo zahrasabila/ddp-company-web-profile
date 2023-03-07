@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+    position:fixed;
+
+    top: 0;
+    z-index: 10;
+}
+
+body {
+    background-image: url(../download.gif);
+    background-repeat: none;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.menu :hover {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.menu {
+    color: rgb(0, 0, 0);
+    float: right;
+    line-height: 60px;
+    margin-right: 50px;
+    font-size: 20px;
+    word-spacing: 10px;
+    font-weight: 700;
+}
+
+.logo {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 10px;
+}
+
+.nama {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 800px;
+    font-family: serif;
+    color: rgb(70, 70, 70);
+}
+
+.content {
+text-align: center;
+margin: 150px auto;
+    }
+
+.content h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+.box1 {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.box2 {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.box3 {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.box1 .img1 {
+    margin-top: 50px;
+}
+
+.box2 .img2 {
+    margin-top: 50px;
+}
+
+.box3 .img3 {
+    margin-top: 50px;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+button :hover {
+    opacity: 0.5;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(239, 238, 238);
+}
+
+h4 {
+    color: rgb(70, 70, 70);
+}
+
+@font-face {
+    font-family: "pixel font";
+    src: url('DePixelBreitFett.ttf') format('truetype');
+}
+
+.content h1 {
+    font-family: "pixel font";
+}
